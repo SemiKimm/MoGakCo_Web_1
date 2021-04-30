@@ -1,4 +1,4 @@
-# MoGakCo_Web_1
+# MoGakCo_Web_JS
 
 코딩 커뮤니티 '코뮤니티'에서 진행하는 모각코 웹 스터디(JS)
 
