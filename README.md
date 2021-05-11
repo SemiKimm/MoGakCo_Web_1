@@ -28,3 +28,20 @@ main.js
 - getElementsByClassName 사용하여 js파일에서 HTML파일의 h3 태그 사용
 - 버튼의 click 이벤트를 처리할 함수 생성 (onClickM,onClickG, onClickC)
 - 각각의 onclick 함수에서 innerText 통해 버튼에 click 이벤트가 발생했을때 h3 내용 변경
+
+모각코 Web 스터디 챗봇만들기-9일차
+
+1. 좋아하는 영화제목을 가진 버튼 만들기
+2. 각각의 버튼을 눌렀을 때 해당 영화의 정보가 나열되도록 구현하기
+
+main.js
+
+- 객체 : key와 value로 구성된 프로퍼티의 정렬되지 않은 집합
+- ex) const movie={name : "", genre : ""}
+- 객체의 프로퍼티 참조하는 방법 2가지
+- 1. 객체이름.프로퍼티 이름 ex) movie.name
+- 2. 객체이름["프로퍼티이름"] ex) movie["genre"]
+- 프로퍼티 추가
+- : 객체이름.추가할프로퍼티이름=value; ex) movie.date="12/3";
+- 프로퍼티 삭제
+- : delete 객체이름.삭제할프로퍼티이름; ex) delete movie.name;

@@ -1,0 +1,33 @@
+.body {
+  margin: 80px;
+  text-align: center;
+}
+.mainTitle {
+  padding: 32px; /*위아래 간격 설정 px 값*/
+  font-style: bold;
+  font-size: 45px;
+}
+button {
+  padding: 10px;
+  background-color: #298088;
+  font-style: italic;
+  color: #ffffff;
+  font-size: 30px;
+}
+.title {
+  padding: 30px;
+  font-style: bold;
+  font-size: 30px;
+}
+.ReleaseD {
+  padding: 20px;
+  font-size: 20px;
+}
+.genre {
+  padding: 20px;
+  font-size: 20px;
+}
+.actors {
+  padding: 20px;
+  font-size: 20px;
+}
