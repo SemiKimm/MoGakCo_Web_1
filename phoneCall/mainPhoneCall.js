@@ -1,5 +1,5 @@
-const redColor = '#ff0000';
-const greenColor = '#21f01a';
+const rColor = '#ff0000';
+const gColor = '#21f01a';
 let btnState = false;
 
 function pushData() {
