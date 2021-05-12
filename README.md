@@ -45,3 +45,30 @@ main.js
 - : 객체이름.추가할프로퍼티이름=value; ex) movie.date="12/3";
 - 프로퍼티 삭제
 - : delete 객체이름.삭제할프로퍼티이름; ex) delete movie.name;
+
+모각코 Web 스터디 챗봇만들기-10일차
+
+1. '전화걸기' 라는 이름의 버튼 생성
+2. 버튼을 누르면 2초 뒤에 이름과 전화번호 출력
+
+오늘의 개념
+이벤트란?
+웹을 살아 숨쉬게 만드는 요소
+이벤트 생성이란?
+예를 들어, 버튼을 클릭했을 때 특정 결과가 나오게끔 설정하는 것
+이벤트 설정 방법
+
+- <button onclick=click_event()>click me</button>
+  위 방법처럼 함수를 직접 연결하는 방식은 유지보수를 어렵게 하기 때문에 별로 좋지 않다.
+- function onClick(){}
+- document.getElementById('clickMe').addEventListener('click',onClick);
+  addEventListner와 callback 콜백함수 사용
+
+콜백함수란?
+다른 함수가 실행을 끝낸 뒤 실행되는 함수
+특정 시점 이전까지는 실행되지 않는 함수
+
+- callback 함수를 사용하는 방법 1
+  setTimeout(함수, 시간) 을 사용하면 매개변수로 넣은 시간이 지날 때까지 해당 함수는 실행 안됨
+
+버튼이벤트 이외에도 텍스트에 따른 이벤트, 스크롤 이벤트, 타이핑 이벤트 등의 다양한 이벤트 존재
