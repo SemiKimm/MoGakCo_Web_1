@@ -1,0 +1,41 @@
+body {
+  position: absolute;
+}
+.header {
+  text-align: center;
+}
+.answer {
+  padding: 50px;
+  border: thick groove #bdbdbd;
+  text-align: center;
+  font-size: 30px;
+}
+.img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  max-width: 50%;
+  height: auto;
+}
+.orderInput {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  padding: 15px 60px;
+  font-weight: bolder;
+  font-size: 20px;
+}
+.btn {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #424242;
+  border: none;
+  padding: 15px 60px;
+  margin-top: 10px;
+  font-size: 20px;
+  border-radius: 100px;
+  color: aliceblue;
+}
